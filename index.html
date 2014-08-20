@@ -1,182 +1,429 @@
-<! doctype html>
-<html>
-<title>TheBeacon90031</title>
-<head>
-<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="description" content="" />
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
+<!DOCTYPE html>
+<html><head>
+<title>HTML KickStart Elements</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                  <!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />                          <!-- CUSTOM STYLES -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/kickstart.js"></script> 
 
-	<!-- Javascript -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/kickstart.js"></script>
+<style>
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
 
-<!--Jquery-->
-<!-- jQuery library (served from Google) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="/js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
 
-<script src="js/jQuery.js">$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
-</script>
-</head>
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+</style>
 
 
-<body>
+
+
+
+
+
+
+
+                                 <!-- KICKSTART -->
+</head><body>
+
+
 <div class="grid">
-<header>
+<!-- ===================================== END HEADER ===================================== -->
 
-	<p style="font-size: 50px; font-family: Algerian; margin-top: 130px; float:left" >THE COMMUNITY BEACON </p>
-        <h6 style="font-family: Algerian; text-align:right">LA LUZ DEL PUEBLO </h6>
-    <img src="images/beacon.jpg" style="height: 100px; width: 100px;">
+<header>
 	
+<h1 class="main-title" style="font-size: 50px; ; font-family: Algerian; color:black; margin-top:50px"><img class="circular-image" src="images/beacon.jpg" style="height:150px; width: 150px">THE COMMUNITY BEACON </h1>
+        <h4 style="font-family: Algerian; margin-left: 470px">LA LUZ DEL PUEBLO </h4><HR COLOR="BLACK" width="800px">
+  
 </header>
 
-<div class="clear"></div>
 
 
-
-<ul class="menu">
-
-<li><a href="">Past Issues</a>
-
-	<ul>
-	<li><a href="februaryV.html"></i> February 2014</a></li>
-</li>
-	</ul>
-
-<li><a href="">Information</a></li>
-</ul>
-
+<div id="topads" >
+    <img src="images/ads/josecruz.jpg" style="width: 220px; height: 200px; margin-left: 140px">
+		<img src="images/ads/justhair.jpg" style="width: 220px; height: 200px; margin-left: 100x">
+	<img src="images/ads/photography.jpg" style="width: 220px; height: 200px; margin-left: 10px">
 </div>
 
+
+<div class="clear"></div>
+<div class="col_12">
+	<ul class="menu">
+		<li>><a href="index.html">Home</a></li>
+		<li><a href="about.html"></a></li>
+		<li><a href="services.html">Past Issues</a>
+			<ul>
+				<li><a href="februaryV.html">February 2014</a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+			</ul>
+		</li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</div>
 
 
 <div class="col_12" style=" height:100px; background-color:#efefef; text-align:center; box-shadow: 5px 2px 1px #333333">
-	<h6 style="color:black">From the Publisher: George Cabrera, Marketing Director (323) 245-9408</h6><p style= "font-family: Georgia; font-size: 14px; color:black">The Community Beacon is read by 25,000+ Residents and Business Owners in Lincoln Heights, El Sereno, and surrounding areas.<br><h6><strong>JULY-AUGUST 2014</strong></p>
-
-</div><br><br>
-
-<div id="topads" >
-    <img src="images/josecruz.jpg" style="width: 220px; height: 200px; margin-left: 140px">
-		<img src="images/justhair.jpg" style="width: 220px; height: 200px; margin-left: 100x">
-	<img src="images/photography.jpg" style="width: 220px; height: 200px; margin-left: 10px">
+	<h6 style="color:black">From the Publisher: George Cabrera, Marketing Director (323) 245-9408</h6><p style= "font-family: Georgia; font-size: 14px; color:black">The Community Beacon is read by 25,000+ Residents and Business Owners in Lincoln Heights, El Sereno, and surrounding areas.<br><strong>JULY-AUGUST 2014</strong></p>
 </div>
 
 
-<h5>FEATURED STORIES </h5>
-<div class="col_9">
-		<div style="border:1px solid black; height: 300px;">
-		<a href="pharmacy.html"><img class="align-left" src="images/newpharmacy.jpg" style="height: 280px"/></a>
-		<h6>Dr.Kwong Abre Nueva Farmacia</h6>
-		<p>Dr. Andrew Kwong nació en China, se crió en Hong Kong, y vino a los Estados Unidos cuando tenia 18 años y asistió a la Universidad de Oregón. Eventualmente se ganó Doctor en Farmacia en la Universidad del Sur de California en 1978. Seis años despues, compró Gateway Circle Farmacy en la esquina de Figueroa y Avenida 26. Y en enero de 2014, compró la propiedad en la esquina de Broadway y Eastlake Ave y se trasladaron a la farmacia a esta nueva ubicación. </p>
-		<button class="small"><a href="pharmacy.html">Read On</a></button></div>
+<div class="col_8">
 
-		
+<HR>
+		<div style="background-color:gray; height: 30px">
+		<h6 style="color:white; margin-left: 2px">Top Stories</h6>
+		</div>
 
+<HR>
+		<div class="col_4 hero-column">
+		<h6><br>New Pharmacy Opens</h6>
+		<img src="images/July-August/newpharmacy.jpg" style="height: 180px">
+		<p>Dr. Andrew Kwong was born in China, grew up in Hong Kong, and came to the United States at age 18 to attend the University of Oregon.</p>
+		<a href="pharmacy.html"><button class="small"><p style="color:blue" >Read On</p></button></a>
+		</div>
 
+		<div class="col_4 hero-column">
+		<h6><br>Thrift Store’s 45-year-Anniversary </h6>
+		<img src="images/July-August/thriftstore.jpg" style="height:180px">
+		<p>The St. Vincent de Paul Thrift Store at 210 North Avenue 21 in Lincoln Heights celebrates 45 years at its location in 2014...</p>
+		<a href="thriftstore.html"><button class="small"><p style="color:blue" >Read On</p></button></a>
+		</div>
 <HR>
 
 
 
-		<div style="border:1px solid black; height: 300px;">
-		<a href="thriftstore.html"><img class="align-left" src="images/thriftstore.jpg" style="height: 280px"/></a>
-		<h6>Thrift Store’s 45-year-Anniversary in Lincoln Heights</h6>
-		<p>The St. Vincent de Paul Thrift Store at 210 North Avenue 21 in Lincoln Heights celebrates 45 years at its location in 2014 - a former paint factory.  Employee Alfonso Topete has been on site exactly just as long, since he immigrated from Mexico.  He remembers when the store was housed in the yellow, former factory building next door at 200 N. San Fernando Road, now upscale condos.
-		“The first floor was the store,” said Topete. “In the furniture section there were no tags on anything. You would just say, ‘How much is this?’</p>
-		<button class="small"><a href="thriftstore.html">Read On</a></button></div>
+
+	<div class="col_4 hero-column" >
+	<h6><br>Local Veteran Honored</h6>
+ 	<img src="images/July-August/localvet.jpg" style="height:180px">
+ 	<p>Highland Park American Legion Post #206 Commander David Bloom was honored on June 25 as Veteran of the Year for California Assembly District 51 </p>
+ 	<a href="localvet.html"><button class="small"><p style="color:blue" >Read On</p></button></a>
+	</div>
+
+	<div class="col_4 hero-column">
+	<h6><br>Esperar lo mejor de su hijo</h6>
+ 	<img src="images/July-August/backtoschool.jpg" style="height:180px">
+ 	<p>Preparándose para el año escolar debe ser una prioridad para usted y su hijo. Tener altas expectativas para sí mismo y su hijo es el primer paso para ayudar a tener éxito.</p>
+ 	<a href="backtoschool.html"><button class="small"><p style="color:blue" >Read On</p></button></a>
+	</div>
 	
+
+<HR>
+
+	<div style="background-color:gray; height: 30px">
+<h6 style="color:white; margin-left: 2px">Community</h6></div>
+<HR>
+
+
+		<div style="border:1px solid black; height: 200px;">
+		<a href="shmixer.html"><img class="align-left" src="images/July-August/sacredheartmixer.jpg" style="height: 200px"/></a>
+		<h6>Sacred Heart Mixer</h6>
+		<p>On June 5, representatives of over 75 businesses attended, networked, and enjoyed food and drinks at the business mixer at Sacred Heart, promoting the theme “Partnering Business in Education.”</p>
+		<button class="small"><a href="shmixer.html">Read On</a></button></div>
+<HR>
+
+		<div style="border:1px solid black; height: 210px;">
+		<a href="orchestra.html"><img class="align-left" src="images/July-August/music.jpg" style="height: 200px"/></a>
+		<h6>Youth Orchestra in Need</h6>
+		<p>When Community Beacon Marketing Director George Cabrerra heard that the Lincoln Heights Youth Orchestra needed a place to practice and assistance finding funds to buy...</p>
+		<button class="small"><a href="orchestra.html">Read On</a></button></div>
+
+<HR>
+
+		<div style="border:1px solid black; height: 210px;">
+		<a href="uscjobs.html"><img class="align-left" src="images/July-August/jobs.jpg" style="height: 200px"/></a>
+		<h6>USC Health Sciences Campus JOBS AWARENESS Event</h6>
+		<p>The USC Health Sciences Campus Office of Community Partnerships launched a USC jobs awareness fair aimed at building awareness about available jobs at USC...</p>
+		<button class="small"><a href="uscjobs.html">Read On</a></button></div>
+
+		
+<BR>
+
+
+
+<HR>
+
+<div style="background-color:gray; height: 30px">
+<h6 style="color:white; margin-left: 2px">Local News</h6></div>
+
+<HR>
+
+	
+	<div class="img">
+ 	<a target="_blank" href="LA32.html"><br><br><br><img src="images/July-August/LA32.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">LA32NC Weighs Small Lot Development Proposal</div>
+	</div>
+
+
+
+	<div class="img">
+ 	<a target="_blank" href="river.html"><br><br><br><img src="images/July-August/river.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">河流更生美化計劃 River Revitalization/
+		Gentrification</div>
+	</div>
+
+	<div class="img">
+ 	<a target="_blank" href="quintero.html"><br><br><br><br><img src="images/July-August/quintero.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">Powerful Film by Local Director</div>
+	</div>
+
+	<HR>
+
+	<div class="img">
+ 	<a target="_blank" href="angelicacampos.html"><img src="images/July-August/angelicacampos.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">Angelica Campos</div>
+	</div>
+
+
+	<div class="img">
+ 	<a target="_blank" href="grifols.html"><img src="images/July-August/grifols.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">Grifols Invests in the Future</div>
+	</div>
+
+
+	<div class="img">
+ 	<a target="_blank" href="lapddrones.html"><img src="images/July-August/lapddrones.jpg" alt="Klematis" style="height:110px"></a>></a>
+ 	<div class="desc">LAPD Drones</div>
+	</div>
+
+	<HR>
+
+
+	<div class="img">
+	 <a target="_blank" href="vpla32.html"><img src="images/July-August/vpla32.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">New VP for LA32 NC</div>
+	</div>
+
+
+
+
+	<div class="img">
+ 		<a target="_blank" href="dump.html"><img src="images/July-August/dump.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">Communities Oppose Dump Expansion</div>
+	</div>
+
+
+	<div class="img">
+ 	<a target="_blank" href="vergara.html"><img src="images/July-August/education.jpg" alt="Klematis" style="height:110px"></a><div class="desc">Vergara case’s real motive</div>
+	</div>
+
+	<HR>
+
+<div class="img">
+ 	<a target="_blank" href="sidewalksale.html"><img src="images/July-August/sidewalksale.jpg" alt="Klematis" style="height:110px" ></a>
+ 	<div class="desc">Chamber of Commerce Sidewalk Sale</div>
+	</div>
+
+	
+
+<div class="img">
+ 	<a target="_blank" href="artalley.html"><img src="images/July-August/artalley.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">An Appreciation in an Alley</div>
+	</div>
+
+
+
+<div class="img">
+ 	<a target="_blank" href="chamber.html"><img src="images/July-August/ChamberofCommerce.jpg" alt="Klematis" style="height:110px"></a>
+ 	<div class="desc">A Message from Chamber President</div>
+	</div>
+
+
+
+
+
+
+
+<HR>
+
+	<div style="background-color:gray; height: 30px">
+<h6 style="color:white; margin-left: 2px">Advertise Your Business/Service</h6></div>
+
+<HR>
+
+	<img src="images/ads/cathaybank.jpg" alt="Klematis" style="width: 190px; height: 200px"></a>
+ 	<img src="images/ads/directtv.jpg" alt="Klematis" style="width: 190px; height: 200px"></a>
+	<img src="images/ads/carad.jpg" style="width: 190px; height: 200px;">
+
+<HR>
+
+	<img src="images/ads/bikead.jpg" style="width: 190px; height: 200px">
+	<img src="images/ads/711.jpg" style="width: 190px; height: 200px;">
+
+</div>
+
+
+
+
+
+<div class="col_4" style=" margin-left: 3px; border:1px ; border-style: solid; border-color: transparent transparent transparent gray;height: 3700px">
+
+
+<p style="text-align:center"><a href="https://www.facebook.com/TheCommunityBeacon"><i class="icon-facebook-sign icon-3x"></i></a></p>
+
+
+
+
+
+<HR>
+
+
+		<h6 style="text-align:center">SCHOOL NEWS</h6>
+
+			<p style="text-align:center"><a href="SHCOMPETES.html"><img src="images/July-August/shcompetes.jpg" alt="alternate text" width="200" height="200" style="padding-bottom:0.5em;" /></p>
+			<h6 style="text-align:center" >Sacred Heart Competes</h6>
+<HR>
+
+		<h6 style="text-align:center; color:black">Editor's Message:</h6>
+		<p style="font-size: 14px; font-family:Georgia; color: black; text-align:left; margin-left: 10px">
+	Thank you for your continued support. Please continue to send information, stories, obituaries, photos for publication in future issues to communitybeacon@yahoo.com. Please continue to utilize the local business that advertise in this paper and thank them for doing so. Without financial support this publication would cease to exist. <br>
+	At our Beacon Contributor's potluck meeting Wednesday, August 20 from 6pm-7:30pm, two CSULA journalism professors will be on hand to take listen to story suggestions from the community so they can have their students in Fall write stories and for credit in their class, and to be published in this newspaper. You are welcome to attend. <br>
+	Do you have a comment or opinion about what you see in this paper? Please contact George at 323-245-9408, or email communitybeacon@yahoo.com</p>
+
+
+
+<HR>
+
+
+<p style="color:black; font-family:Georgia; font-size: 14px;  margin-left: 15px">
+	<table>
+	<thead><tr>
+	<th>The Beacon Team</th>
+	<th>Department</th>
+	<th>Title</th>
+	</tr></thead>
+
+	<tbody><tr>
+	<td>El Gabacho</td>
+	<td>Editing </td>
+	<td>Senior Editor</td>
+	</tr><tr>
+	<td>Luis Sanchez</td>
+	<td>Editing</td>
+	<td>Editor</td>
+	</tr><tr>
+	<td>Richard</td>
+	<td>Sports</td>
+	<td>Phototgrapher</td>
+</table></p>
+
+<HR>
+
+
+		<p style="color: blue; text-align:center; font-size: 14px;">Tumblr Stories: </p>
+
+
+		<a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 15px; font-size: 14px; color:red; font-family: Georgia; text-align:left"> Fight for State Ban on Plastic Bags </p></a>
+
+		<a href="http://communitybeacon.tumblr.com/post/92070330130/ascot-hills-improvements-underway"><p style="margin-left: 15px; font-size: 14px; color: red; font-family: Georgia; text-align:left"> Ascot Hills Improvements Underway </p></a>
+
+
+		<a href="http://communitybeacon.tumblr.com/post/92069005265/new-simulation-center-for-risk-free-medical-training"><p style="margin-left :15px; font-size: 14px; color: red; font-family: Georgia; text-align:left" >New Simulation Center for Risk Free Medical Training</p></a>
+		
+
+		<a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 15px; font-size: 14px;color: red; font-family: Georgia; text-align:left"> Beneficial Improvement Recycling</p></a>
+
+
+		<a href="http://communitybeacon.tumblr.com/post/92069087130/10-ways-to-nurture-community10 Ways to Nurture Community"><p style="margin-left :15px; font-size: 14px; color: red; font-family: Georgia; text-align:left" >10 Ways to Nurture Community</p></a>
+
+
 		
 <HR>
 
 
 
 
+		<p style="text-align:center; color: blue; font-size: 14px;">OBITUARIES</p>
 
+		
+		<img class="align-left" src="images/July-August/rcastillo.jpg" style="margin-left: 15px; width: 70px; height: 70px"><a href="http://communitybeacon.tumblr.com/post/92070048230/robert-castillo-1955-2014"><p style="margin-left: 3px; font-size: 14px;color:red; font-family:Georgia;"> Robert Castillo <br>1955-2014 </p></a><br><br>
 
-		<div class="col_3" style="border:1px solid black;">
-		<a href="shmixer.html"><img class="align-left" src="images/sacredheartmixer.jpg" /></a>
-		<p style="text-align:center"><strong>Sacred Heart Mixer</strong></p></div>
+		<img class="align-left"src="images/July-August/bettina.jpg" style="margin-left: 15px;width: 70px; height:70px"><a href="http://communitybeacon.tumblr.com/post/92069824340/bettina-gaxiola-serrato-1927-2014"><p style="margin-left: 3px;color:red;  font-size: 14px;font-family:Georgia; text-align:left"> Bettina Gaxiola Serrato <br>1927-2014 </p></a><br><br>
+ 		
+		<img class="align-left" src="images/July-August/santillan.jpg" style="margin-left: 15px;width: 70px; height:70px"><a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 3px;color: red;  font-size: 14px;font-family: Georgia; text-align:left"> Louis Santillan<br> 1935-2014</p></a><br><br>
 
-
-		<div class="col_3" style="border:1px solid black;">
-		<a href="backtoschool.html"><img class="align-left" src="images/backtoschool.jpg"  /></a>
-		<p style="text-align:center"><strong>Esperar lo mejor de su hijo</strong></p></div>
-
-         <div class="col_3" style="border:1px solid black;"><p><a href="chamber.html"><img class="align-left" src="images/ChamberofCommerce.jpg" style="margin-left:px; width: 300px; height:200px"/></a></p>
-        <p style="text-align:center"><strong>Chamber of Commerce</strong></p></div>
-
-<HR>
-
-		<div class="col_3" style="border:1px solid black;">
-		<a href="fourthofjuly.html"><img class="align-left" src="images/fourthofjuly2014.jpg"  /></a>
-		<p style="text-align:center"><strong>El Sereno’s 55th Independence Day Parade</strong></p></div>
-
-    <div class="col_3" style="border:1px solid black; ">
-        <a href="localvet.html"><img class="align-left" src="images/localvet.jpg"/></a>
-        <p style="text-align:center" ><strong>Local Veteran Honored</strong></p></div>
-
-
-
-    <div class="col_3" style="border:1px solid black; ">
-        <a href="LH32.html"><img class="align-left" src="images/LA32.jpg"/></a>
-        <p style="text-align:center"><strong>LA32NC Weighs Small Lot Development Proposal</strong></p></div>
-
-<HR>
-
-<HR>
-
-		<div class="col_3" style="border:1px solid black; ">
-		<a href="river.html"><img class="align-left" src="images/river.jpg" /></a>
-		<p style="text-align:center; font-family:Georgia"><strong>河流更生美化計劃 River Revitalization/
-		Gentrification</strong></p></div>
-
-
-		<div class="col_3" style="border:1px solid black; ">
-		<a href="quintero.html"><img class="align-left" src="images/quintero.jpg" style="width: 250px; height:200px"/></a>
-		<p style="text-align:center; font-family: Georgia"><strong>Powerful Film by Local Director</strong></p></div>
-
-    <div class="col_3" style="border:1px solid black; ">
-        <a href="angelicacampos.html"><img class="align-left" src="images/angelicacampos.jpg" style="width: 250px; height:200px"/></a>
-        <p style="text-align:center; font-family: Georgia"><strong>Angelica Campos</strong></p></div>
-
-
-<HR>
-
-		<div class="col_3" style="border:1px solid black; ">
-		<a href="grifols.html"><img class="align-left" src="images/grifols.jpg" style="width: 250px; height:200px"/></a>
-		<p style="text-align:center; font-family:Georgia"><strong>Grifols Invests in the Future</strong></p></div>
-
-    <div class="col_3" style="border:1px solid black; ">
-        <a href="vpla32.html"><img class="align-left" src="images/vpla32.jpg" style="width: 250px; height:200px"/></a>
-        <p style="text-align:center; font-family:Georgia"><strong>New VP for LA32 NC</strong></p></div>
-
-
-    <div class="col_3" style="border:1px solid black;">
-        <a href="dump.html"><img class="align-left" src="images/dump.jpg" style="width: 250px; height:200px"/></a>
-        <p style="text-align:center; font-family:Georgia"><strong>Communities Oppose Dump Expansion</strong></p></div>
-
-
-<HR>
+		<img class="align-left"src="images/July-August/tedjuarez.jpg" style="margin-left: 15px;width; 70px; height:70px"><a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 3px;color: red;  font-size: 14px;font-family: Georgia; text-align:left"> Ted Juarez <br> 1956-2014</p></a><br><br>
 
 		
 
-		<div class="col_3" style="border:1px solid black;">
-		<a href="drones.html"><img class="align-left" src="images/lapddrones.jpg" style="width: 250px; height:200px"/></a>
-		<p style="text-align:center; font-family:Georgia"><strong>LAPD Drones</strong></p></strong></p></div>
+<HR>
+
+					<p style="font-family: Georgia; font-size: 16px; color: black; text-align:center">Leave Us a Message</p>	
+                	<div class="contact-form" style="text-align:center; margin-left: 10px">
+
+                		<form method="post" action="#contact" name="form" id="form">
+                                            <input type="hidden" name="fields[email]" value=""/>
+                        <input type="hidden" name="fields[class]" value="pink"/></form>
+                    	<br>
+
+                            <input id="name" name="fields[name]" type="text" placeholder="Name" value=""/>
+                            <input id="email" name="fields[carrot]" type="email" placeholder="Email" value=""/>
+                        <textarea id="message" name="fields[message]" placeholder="Message" ></textarea>
+                        
+                        
+						<form method="post" action="#contact" name="form" id="form">
+                                            <input type="hidden" name="fields[email]" value=""/>
+                        <input type="hidden" name="fields[class]" value="pink"/></form>
+                     	  
+                        
+                        <button id="submit" type="submit">Submit</button>
+                    </div><br>
+
+ <HR>
 
 
-		<div class="col_3" style="border:1px solid black;">
-		<a href="vergara.html"><img class="align-left" src="images/education.jpg" style="width: 200px; height:200px"/></a>
-		<p style="text-align:center; font-family:Georgia"><strong>Vergara case’s real motive</strong></p></div>
+		<div style="background-color: #efefef; height: 100px; margin-left: 15px; ">
+		<br><h6 style="color: blue; text-align:center;">READER FEEDBACK: </h6>
+		</div>
 
+
+<HR>
+
+
+
+	<div style="margin-left: 15px">
+		<h6 style="text-align:center">Beacon Writers</h6>
+
+
+		<a href="http://placehold.it/600x450/00C6E4/ffffff.png&text=600x450"><img src="images/Wood.jpg" width="70" height="100" Title="Troy Wood"/></a>
+		<a href="http://placehold.it/600x450/E4DB0F/ffffff.png&text=600x450"><img src="images/MLAWood.jpg" width="70" height="100" Title="M. Alva Wood"/></a>
+		<a href="http://placehold.it/600x450/7400E4/ffffff.png&text=600x450"><img src="images/G Maryanne Hernandez.jpg" width="70" height="100" Title="Maryanne Hernandez" /></a>
+		<a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="images/Nanci Rosas.jpg" width="70" height="100" Title="Nancy Rosas" /></a>
+		<a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="images/ee Martin Hernandez.jpg" width="70" height="100" Title="Martin Hernandez"/></a>
+		<a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="images/amelia velazquez.jpg" width="70" height="100" Title="Amelia Velasquez"/></a>
+	</div>
+<HR>
+
+		<img src="images/ads/computers.jpg" style="margin-left: 15px; width: 190px; height: 200px;"><br><br>
+
+		<img src="images/ads/vincentdepaul.jpg" style="margin-left: 15px; width: 190px; height: 200px;"><br><br>
+
+		<img src="images/ads/camerarepair.jpg" style=" margin-left: 15px; width: 190px; height: 200px">
 
 </div>
 
@@ -185,193 +432,13 @@
 
 
 
-<!--<div class="col_3" style="margin-left:3px; border-style:solid; border-color: gray transparent transparent gray; text-align:center; background-color: #eeeeee;"><br>-->
+<!-- ===================================== START FOOTER ===================================== -->
+<!-- END GRID-->
 
 
 
-	<!--<h6>School News</h6>-->
-		<!--<p style="text-align: center" ><a href="shcompetes.html"><img src="images/SHCOMPETES.jpg" style="width: 250px; height:200px"/></a></p>-->
-		<!--<p style="text-align:center; font-family:Georgia"><strong>Sacred Heart High School Runners and 2014 Graduates to Compete in College</strong></p><HR>-->
+</div>
 
 
 
-	<!--<img src="images/freetacos.jpg" style="height: 150px"><br><br>-->
-
-	<!--<img src="images/computers.jpg" style="height: 150px">-->
-<!--<HR>-->
-
-
-<!--<h6 style="color: blue">Tumblr Stories: </h6>-->
-
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 2px; color:red; font-family: Georgia; text-align:left"> Fight for State Ban on Plastic Bags </p></a>-->
-<!--<a href="http://communitybeacon.tumblr.com/post/92070330130/ascot-hills-improvements-underway"><p style="margin-left: 2px;color: red; font-family: Georgia; text-align:left"> Ascot Hills Improvements Underway </p></a>-->
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92072225795/beneficial-improvement-recycling"><p style="margin-left: 2px;color:red; font-family:Georgia; text-align:left"> Fight for State Ban on Plastic Bags </p></a>-->
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 2px;color: red; font-family: Georgia; text-align:left"> Beneficial Improvement Recycling</p></a>-->
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92069973695/louis-santillan-1935-2014"><p style="margin-left: 2px;color:red; font-family:Georgia; text-align:left"> Fight for State Ban on Plastic Bags </p></a><br>-->
-<!--<a href="https://www.facebook.com/TheCommunityBeacon"><i class="icon-facebook-sign icon-2x"></i></a>-->
-
-
-<!--<HR>-->
-
-<!--<h6>Editor's Message:</h6>-->
-<!--<p style="font-family:Georgia; text-align:left; margin-left: 2px">-->
-	<!--Thank you for your continued support. Please continue to send information, stories, obituaries, photos for publication in future issues to communitybeacon@yahoo.com. Please continue to utilize the local business that advertise in this paper and thank them for doing so. Without financial support this publication would cease to exist. <br>-->
-	<!--At our Beacon Contributor's potluck meeting Wednesday, August 20 from 6pm-7:30pm, two CSULA journalism professors will be on hand to take listen to story suggestions from the community so they can have their students in Fall write stories and for credit in their class, and to be published in this newspaper. You are welcome to attend. <br>-->
-	<!--Do you have a comment or opinion about what you see in this paper? Please contact George at 323-245-9408, or email communitybeacon@yahoo.com</p>-->
-
-
-
-<!--<HR>-->
-
-	<!--<table>-->
-	<!--<thead><tr>-->
-	<!--<th>The Beacon Team</th>-->
-	<!--<th>Department</th>-->
-	<!--<th>Title</th>-->
-	<!--</tr></thead>-->
-
-	<!--<tbody><tr>-->
-	<!--<td>El Gabacho</td>-->
-	<!--<td>Editing </td>-->
-	<!--<td>Senior Editor</td>-->
-	<!--</tr><tr>-->
-	<!--<td>Luis Sanchez</td>-->
-	<!--<td>Editing</td>-->
-	<!--<td>Editor</td>-->
-	<!--</tr><tr>-->
-	<!--<td>Richard</td>-->
-	<!--<td>Sports</td>-->
-	<!--<td>Phototgrapher</td>-->
-
-
-	<!--</tr></tbody>-->
-	<!--</table>-->
-	<!--<HR>-->
-
-
-
-<!--<h6>OBITUARIES</h6>-->
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92070048230/robert-castillo-1955-2014"><p style="margin-left: 2px;color:red; font-family:Georgia; text-align:left"> Robert Castillo 1955-2014 </p></a>-->
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92069824340/bettina-gaxiola-serrato-1927-2014"><p style="margin-left: 2px;color:red; font-family:Georgia; text-align:left"> Bettina Gaxiola Serrato 1927-2014 </p></a>-->
- <!--</p></a>-->
-
-<!--<a href="http://communitybeacon.tumblr.com/post/92071899140/fight-for-state-ban-on-plastic-bags"><p style="margin-left: 2px;color: red; font-family: Georgia; text-align:left"> Louis Santillan 1935-2014</p></a>-->
-
-<!--<HR>-->
-
-
-
-			<!--<div class="4" >-->
- 				<!--<p style="font-family: Georgia; font-size: 16px; color: black">Leave Us a Message</p>	-->
-                	<!--<div class="contact-form" style="text-align:center;">-->
-
-                		<!--<form method="post" action="#contact" name="form" id="form">-->
-                                            <!--<input type="hidden" name="fields[email]" value=""/>-->
-                        <!--<input type="hidden" name="fields[class]" value="pink"/></form>-->
-                    	<!--<br>-->
-
-                        <!--<div class="contact-info" style="text-align:center">-->
-                            <!--<input id="name" name="fields[name]" type="text" placeholder="Name" value=""/>-->
-                            <!--<input id="email" name="fields[carrot]" type="email" placeholder="Email" value=""/>-->
-                        <!--<textarea id="message" name="fields[message]" placeholder="Message" ></textarea>-->
-                        <!--</div>-->
-                        <!---->
-						<!--<form method="post" action="#contact" name="form" id="form">-->
-                                            <!--<input type="hidden" name="fields[email]" value=""/>-->
-                        <!--<input type="hidden" name="fields[class]" value="pink"/></form>-->
-                     	  <!---->
-                        <!---->
-						<!--<div class="send" style="margin-left:5px;">-->
-                        <!--<button id="submit" type="submit">Submit</button>-->
-                    	<!--</div>-->
-                 <!--</div>-->
-			<!--</div>-->
- <!--<br>-->
-
-    <!--<div class="col_4" style="background-color: white; width: 280px">-->
-        <!--<h6 style="color: blue">READER FEEDBACK: </h6><br>-->
-    <!--</div>-->
-
-
-
-
-<!--<HR>-->
-
-
-
-
-<!--<h4>Writers</h4>-->
-
-
-<!--<a href="http://placehold.it/600x450/00C6E4/ffffff.png&text=600x450"><img src="images/Wood.jpg" width="70" height="100" Title="Troy Wood"/></a>-->
-<!--<a href="http://placehold.it/600x450/E4DB0F/ffffff.png&text=600x450"><img src="images/MLAWood.jpg" width="70" height="100" Title="M. Alva Wood"/></a>-->
-<!--<a href="http://placehold.it/600x450/7400E4/ffffff.png&text=600x450"><img src="images/G Maryanne Hernandez.jpg" width="70" height="100" Title="Maryanne Hernandez" /></a>-->
-<!--<a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="images/Nanci Rosas.jpg" width="70" height="100" Title="Nancy Rosas" /></a>-->
-<!--<a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="images/ee Martin Hernandez.jpg" width="70" height="100" Title="Martin Hernandez"/></a>-->
-<!--<a href="http://placehold.it/600x450/C50000/ffffff.png&text=600x450"><img src="images/amelia velazquez.jpg" width="70" height="100" Title="Amelia Velasquez"/></a>-->
-<!--<HR>-->
-	<!--<img src="images/cathaybank.jpg">-->
-<!--<HR>-->
-
-	<!--<img src="images/directtv.jpg">-->
-	<!---->
-	<!---->
-<!--<HR>-->
-
-
-	<!--<img src="images/camerarepair.jpg"><HR-->
-	<!--<img src="images/vincentdepaul.jpg"><HR>-->
-
-
-
-<!--</div>-->
-
-<!--<div class="footer">@Copyright 2014-->
-<!--</div>-->
-
-</body>
-
-
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body></html>
