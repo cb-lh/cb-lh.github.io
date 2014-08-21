@@ -55,6 +55,8 @@ height: 2em;
 color: black ;
 }
 
+
+
 .menu li a {
 	color:white;
 	font-size: 1.3em;
@@ -115,7 +117,7 @@ padding: 3.5em;
 
 strong { color: #555; }
 
-#wrap{
+.wrap{
 width:100%;
 background:#fff;
 margin:30px auto 30px auto;
@@ -124,18 +126,8 @@ border:1px solid #ccc;
 }
 
 
-.footer{
-text-align:center;
-padding:10px;
-margin:0;
-border-top:1px solid #ddd;
-color:#777777;
-font-size:0.8em;
-position: relative;
-top:0;
-left:0;
-background:#444;
-}
+
+
 
 	#link-top{
 	display:none;
@@ -277,11 +269,66 @@ header {
 	-o-border-radius: 4px;
 	padding: 10px;
 	text-align: center;
+	width: 250px;
+	
 }
 
 .hero-column h3 i {
 	color: #eab856;
 }
+
+.small-column {
+background-color:#fff;
+border-radius: 1px;
+padding: 10px;
+	text-align: center;
+height: 150px;
+width: 150px;
+
+-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+
+}
+
+.small-column h3 i {
+color:#eab856;
+
+}
+
+
+
+/*ul li {
+ display: inline-block ;
+    padding: 3px;
+    border-right: 1px solid #D8D6FF;
+    border-left: 1px solid #D8D6FF;
+    margin: 0 !important;*/
+.footer {
+   
+   width:1000px;
+   background:black;
+   height: 30px;
+   
+}
+
+
+
+ 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------------------------------*/
 /*             SLIDESHOW              */
@@ -308,8 +355,8 @@ header {
 	padding: 10px;
 	/*background-color: #3B5999;*/
 	border-radius: 6px;
-	background-color: black;
-
+	background-color: #efefef;
+height: 290px;
 }
 
 a {
@@ -347,6 +394,11 @@ background: #efefef;
 
 }
 
+.circular-image {
+border-radius: 50%;
+height: 200px;
+width: 200px;
+}
 
 
 
